@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContatoK</title>
+  </head>
+  <body>
+    <header>
+    </header>
+    <main class="content">
+      <form method="POST" action="" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Contato</legend>
+          <div>
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              placeholder="josé"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" placeholder="jose@jose.com.br" />
+          </div>
+          <input type="radio" name="sexo" value="Masculino" /><br />
+          <label for="Masculino">Masculino</label><br />
+          <input type="radio" name="sexo" value="Feminino" /><br />
+          <label for="Feminino">Feminino</label><br />
+          <label for="local">Estado/Cidade</label>
+          <select name="local[]" id="Estado/Cidade" required>
+            <option></option>
+            <option value="1">MG</option>
+            <option value="2">GO</option>
+            <option value="3">DF</option>
+          </select>
+          <br />
+
+
+          
+          <input type="date" name="data" /><br />
+          <input type="datetime-local" name="datahora" /><br />
+          <input type="email" name="email" required /><br />
+          <input type="file" name="arquivo[]" multiple /><br />
+          <input type="hidden" name="id" value="1" /><br />
+          <input type="image" src="./botao.jpg" /><br />
+          <input type="month" /><br />
+          <input type="number" /><br />
+          <input type="password" /><br />
+          <input type="radio" name="cursado" value="info" /><br />
+          <input type="radio" name="cursado" value="edif" /><br />
+          <input type="radio" name="cursado" value="meca" /><br />
+          <input type="range" name="slide" min="1" max="5" step="2" /><br />
+          <input type="search" required /><br />
+          <input type="tel" required /><br />
+          <input type="time" /><br />
+          <input type="url" required /><br />
+          <input type="week" /><br />
+          <label for="ano">Ano</label>
+          <select name="ano[]" id="ano" required multiple>
+            <option></option>
+            <option value="1">Primeiro ano</option>
+            <option value="2">Segundo ano</option>
+            <option value="3">Terceiro ano</option>
+          </select>
+          <br />
+          <textarea name="mensagem"></textarea>
+          <br />
+          <button type="submit">Salvar</button>
+          <button type="reset">Limpar</button>
+        </fieldset>
+      </form>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </main>
+    <footer>
+      <div class="content">
+      </div>
+    </footer>
+  </body>
+</html>
